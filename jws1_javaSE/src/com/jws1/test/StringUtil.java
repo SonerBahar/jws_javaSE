@@ -17,4 +17,53 @@ public class StringUtil {
 		return true;
 		
 	}
+	/** 
+	 *Author: Bahar
+	 *Tarih:
+	 *
+	 **/
+	
+	//Dışardan verilen parameter(String) başındaki ve sonundaki boşukları sil
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//Dışarıdan verilen parameter(String) bit(010101)'leri tersine çevir
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// Dışarıdan girilen String değişkenin başındaki ve sonundaki karakteri sil
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
