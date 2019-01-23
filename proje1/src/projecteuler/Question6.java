@@ -18,7 +18,6 @@ public class Question6 {
 		
 		for(i=1;i<=100;i++) {
 			karelerToplami = karelerToplami + (i*i);
-			System.out.println(karelerToplami);
 		}
 		
 		for(i=1;i<=100;i++) {
