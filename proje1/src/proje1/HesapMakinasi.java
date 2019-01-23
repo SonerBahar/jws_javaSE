@@ -2,7 +2,7 @@ package proje1;
 
 import java.util.Scanner;
 
-public class hesapMakinasi {
+public class HesapMakinasi {
 
 	public static float toplama(float a,float b) {
 		
@@ -79,25 +79,25 @@ public class hesapMakinasi {
 			}
 		}
 
-		sonuc = hesapMakinasi.toplama(sayi1, sayi2);
+		sonuc = HesapMakinasi.toplama(sayi1, sayi2);
 		System.out.println("Toplama iþleminin sonucu:" + sonuc);
 		
-		sonuc = hesapMakinasi.cikartma(sayi1, sayi2);
+		sonuc = HesapMakinasi.cikartma(sayi1, sayi2);
 		System.out.println("Çýkartma iþleminin sonucu:" + sonuc);
 		
-		sonuc = hesapMakinasi.carpma(sayi1, sayi2);
+		sonuc = HesapMakinasi.carpma(sayi1, sayi2);
 		System.out.println("Çarpma iþleminin sonucu:" + sonuc);
 		
-		sonuc = hesapMakinasi.bolme(sayi1, sayi2);
+		sonuc = HesapMakinasi.bolme(sayi1, sayi2);
 		System.out.println("Bölme iþleminin sonucu:" + sonuc);
 		
-		sonuc = hesapMakinasi.modAlma(sayi1, sayi2);
+		sonuc = HesapMakinasi.modAlma(sayi1, sayi2);
 		System.out.println("Ýlk sayýnýn ikinci sayýya göre modu:" + sonuc);
 		
-		sonuc = hesapMakinasi.obeb(sayi1, sayi2);
+		sonuc = HesapMakinasi.obeb(sayi1, sayi2);
 		System.out.println("Girilen sayýlarýn obebi:" + sonuc);
 		
-		sonuc = hesapMakinasi.okek(sayi1, sayi2);
+		sonuc = HesapMakinasi.okek(sayi1, sayi2);
 		System.out.println("Girilen sayýlarýn okeki:" + sonuc);
 
 		veri.close();
