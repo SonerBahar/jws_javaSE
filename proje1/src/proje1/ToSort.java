@@ -2,7 +2,7 @@ package proje1;
 
 import java.util.Scanner;
 
-public class siralama {
+public class ToSort {
 
 		public static void main(String args []) {
 			

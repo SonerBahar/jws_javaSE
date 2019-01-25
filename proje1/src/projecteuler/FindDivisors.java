@@ -2,7 +2,7 @@ package projecteuler;
 
 import java.util.Scanner;
 
-public class BölenleriniBulma {
+public class FindDivisors {
 
 	public static boolean isPrime(int number) {
 		
@@ -44,7 +44,7 @@ public class BölenleriniBulma {
 		}
 	
 		
-		System.out.println("Sayýnýn asal çarpanlarý:");
+		System.out.println("\nSayýnýn asal çarpanlarý:");
 		for(i=0;i<limit;i++) {
 			if(primeList[i]!=0) {
 			System.out.print(primeList[i] + " ");
@@ -122,10 +122,7 @@ public class BölenleriniBulma {
 		}
 		
 		dividers(number);
-		
-//-----------------------------------------------------------------------------------------
-		
-		
+		primeFactor(number);
 		
 		
 	}
